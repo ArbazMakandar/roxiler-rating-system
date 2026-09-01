@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://roxiler-rating-system.onrender.com/api";
 
 const apiRequest = async (endpoint, options = {}) => {
     const token = localStorage.getItem("token");
